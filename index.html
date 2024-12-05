@@ -9,18 +9,34 @@
 <body>
 
     <nav>
-        <a class="nav-button" href="index.html">List</a>
-        <a class="nav-button" href="quiz.html">Test</a>
+        <a class="nav-button" href="index.html">Test</a>
         <img src="" alt="Timer">
     </nav>
-    <div class="content">
+    <div id="test-area" class="test-area hidden-block">
+        
+    </div>
+    <div id="defintion-answer" class="defintion-answer hidden-block">
+    </div>
+    <div id="mistake-alert" class="mistake-alert hidden-block">
+        <div id="mistake-block" class="mistake-block">
+            <button onclick="closeAlert()" id="x-btn">X</button>
+        </div>
+    </div>
+    <div class="content" id="content">
+ 
 
-        <button id="new-list-btn" class="new-sth-btn">Nowy list</button>
+        <button id="plus-btn">+</button>
+        <button id="start-test-btn">start test</button>
 
+        <div class="q-block">
+                <textarea class="definition" id="definition_1" placeholder="definicja..."></textarea>
+                <textarea class="description" id="description_1" placeholder="opis..."></textarea>
+        </div>
 
     </div>
+
     <script src="script.js"></script>
-    <script src="list.js"></script>
+    <script src="quiz.js"></script>
 
 </body>
 </html>
