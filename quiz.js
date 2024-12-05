@@ -162,4 +162,5 @@ if(definitionNumber === definitions.length){
 function closeAlert(){
     mistakeAlert.classList.add("hidden-block")
     mistakeAlert.classList.remove("mistake-alert-flex")
+    mistakeCounter =0
 }
