@@ -26,4 +26,4 @@ Stworzono działający test na stronie. Rozpoczęto stylizowanie strony: wycentr
 
 **Kierunki dalszego rozwoju aplikajci**
 
-Zostanie stworzony timer, który będzie pokazywał czas potrzebny do ukończenia testu. Interfejs i styl strony będą ulepszane.
+Zostanie stworzony timer, który będzie pokazywał czas potrzebny do ukończenia testu. Interfejs i styl strony będą ulepszane. Interfejs zostanie zmieniony, aby stał się bardziej intuicyjny.
