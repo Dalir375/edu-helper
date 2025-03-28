@@ -1,11 +1,14 @@
+*{
+    font-family: Gill Sans, sans-serif;
+}
+
 .nav-button{
     text-decoration: none;
-    color: black;
     padding: 20px 50px;
+    color: white;
 }
 nav{
     width: 100%;
-    border: 1px solid rgb(180, 180, 180);
     height: 50px;
     align-content: center;
     position: fixed;
@@ -14,7 +17,8 @@ nav{
     right: 0;
     background-color: white;
     z-index: 3;
-
+    background-color: rgb(23, 23, 23);
+    color: white;
 }
 
 .content{
@@ -28,6 +32,7 @@ nav{
 body{
     margin: 0%;
     padding: 0%;
+    background-color: rgb(43, 43, 43);
 }
 
 .new-sth-btn{
@@ -47,6 +52,9 @@ body{
     position: fixed;  
     bottom: 20px;    
     right: 130px; 
+    border-radius: 50%;
+    background-color: rgb(40, 122, 255);
+    border: none;
 }
 
 #start-test-btn{
@@ -54,6 +62,8 @@ body{
     position: fixed;  
     bottom: 20px;    
     right: 20px; 
+    background-color: rgb(1, 185, 1);
+    border: none;
 }
 
 
@@ -63,13 +73,24 @@ body{
     border: solid 1px black;
     border-radius: 7px;
     resize: none;
+    background-color: rgb(190, 190, 190);
 }
+
+.definition::placeholder{
+    color: rgb(62, 62, 62);
+}
+
 .description{
     width: 300px;
     height: 200px;
     border: solid 1px black;
     border-radius: 7px;
     resize: none;
+    background-color: rgb(190, 190, 190);
+}
+
+.description::placeholder{
+    color: rgb(62, 62, 62);
 }
 
 .q-block{
@@ -98,12 +119,9 @@ body{
 .test-area-flex{
     display: flex;
     flex-wrap: wrap;
-
+    background-color: rgb(43, 43, 43);;
 
 }
-/* .test-description{
-    display: flex;
-} */
 
 .test-description-block{
     margin: 10px;
@@ -119,6 +137,9 @@ body{
 .test-description-block:hover{
     background-color: #e4e4e4;
 }
+.test-description-block-true{
+    background-color: rgb(3, 179, 3);
+}
 
 .defintion-answer-flex{
     display: inline;
@@ -129,10 +150,16 @@ body{
     height: 100px;
     position: fixed;
         bottom: 0px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(178, 178, 178);
     z-index: 4;
     justify-content: center;
     align-items: center;
+}
+.defintion-answer-red{
+    background-color: red;
+}
+.definition-answer-green{
+    background-color: rgb(2, 188, 2);
 }
 
 .mistake-alert-flex{
@@ -158,5 +185,7 @@ body{
 #x-btn{
     width: 25px;
     height: 25px;
-    margin-left: 200px;
+    margin-left: 470px;
+    margin-top: 5px;
+    background-color: red;
 }

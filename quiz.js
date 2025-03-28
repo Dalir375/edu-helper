@@ -128,12 +128,22 @@ function checkAnswer(id){
 if(id === definitionNumber && definitionNumber <=definitions.length){
     definitionNumber++
     console.log("compleate")
+    
+    defintionAnswer.classList.add("definition-answer-green")
     resetDefinitionBlock()
+    setTimeout(() => {
+        defintionAnswer.classList.remove("definition-answer-green")
+    }, 1000)
+
 }
 else if(id !== definitionNumber){
     console.log("not")
+    defintionAnswer.classList.add("defintion-answer-red")
     mistakeCounter++
     console.log(mistakeCounter)
+    setTimeout(() => {
+        defintionAnswer.classList.remove("defintion-answer-red")
+    }, 1000)
 
 }
 if(definitionNumber === definitions.length){
