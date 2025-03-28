@@ -23,7 +23,12 @@ Zrobiona została pierwsza wersja menu. Rozpoczęto stronę z quizem: obecnie za
 Stworzono działający test na stronie. Rozpoczęto stylizowanie strony: wycentrowano niektóre bloki. Porzucono pomysł stworzenia listy nauczania, ponieważ okazał się niepraktyczny.
 
 
+**versja 0.2**
+
+Interfejs stał się bardziej intuicyjny i estetyczny.
+
+
 
 **Kierunki dalszego rozwoju aplikajci**
 
-Zostanie stworzony timer, który będzie pokazywał czas potrzebny do ukończenia testu. Interfejs i styl strony będą ulepszane. Interfejs zostanie zmieniony, aby stał się bardziej intuicyjny.
+Zostanie stworzony timer, który będzie pokazywał czas potrzebny do ukończenia testu. Optymalizacja kodu poprzez usunięcie niepotrzebnych funkcji i innych elementów.
