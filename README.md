@@ -13,6 +13,10 @@ Aplikacja będzie przechowywać karty stworzone przez użytkownika (karta z term
 Od użytkownika będzie wymagane tworzenie par kart (termin – definicja) poprzez wpisywanie tekstu w odpowiednie pola. Po zakończeniu, użytkownik będzie musiał myszką dopasować każdy termin z dołu strony do odpowiedniej definicji z gornej części strony.
 
 
+**Interfejs**
+
+Interfejs programu jest bardzo intuicyjny. Obecnie za jego pomocą można tworzyć karty pojęć, wypełniać je i usuwać, a także rozpoczynać testy, które sprawdzają wiedzę użytkownika poprzez wybór poprawnych odpowiedzi na pytania. Dodatkowo, interfejs umożliwia śledzenie liczby popełnionych błędów.
+
 **versja 0.01**
 
 Zrobiona została pierwsza wersja menu. Rozpoczęto stronę z quizem: obecnie zaczęto tworzenie bloków z definicjami. Rozpoczęto stronę z listą.
