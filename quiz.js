@@ -38,6 +38,8 @@ function getRandomUniqueNumber(numbers) {
     const number = numbers[randomIndex];
     // Удаляем число из массива
     numbers.splice(randomIndex, 1);
+
+
     return number;
 }
 
