@@ -32,6 +32,9 @@ Stworzono działający test na stronie. Rozpoczęto stylizowanie strony: wycentr
 Interfejs stał się bardziej intuicyjny i estetyczny.
 
 
+**versja 0.3**
+Naprawa błedu
+
 
 **Kierunki dalszego rozwoju aplikajci**
 
