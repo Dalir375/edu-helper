@@ -36,10 +36,16 @@ Interfejs stał się bardziej intuicyjny i estetyczny.
 Naprawa błedu
 
 
-**Kierunki dalszego rozwoju aplikajci**
 
-Zostanie stworzony timer, który będzie pokazywał czas potrzebny do ukończenia testu. Optymalizacja kodu poprzez usunięcie niepotrzebnych funkcji i innych elementów.
+## Wersja 1.0 (2025-05-14) - Wersja finalna
 
+* **Nowe funkcje:**
+    * Dodano funkcję timera.
+* **Licencjonowanie:**
+    * Projekt jest teraz dystrybuowany na licencji MIT.
+* **Ulepszenia i poprawki:**
+    * Przeprowadzono kompleksowe czyszczenie i refaktoryzację kodu źródłowego.
+    * Projekt został ustabilizowany i **gotowy** do oddania.
 
 
 
