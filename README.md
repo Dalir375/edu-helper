@@ -37,7 +37,7 @@ Naprawa błedu
 
 
 
-## Wersja 1.0.0 (2025-05-14) - Wersja finalna
+## Wersja 1.0 (2025-05-14) - Wersja finalna
 
 * **Nowe funkcje:**
     * Dodano funkcję timera.
