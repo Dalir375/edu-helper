@@ -1,3 +1,13 @@
+// Copyright (c) 2024-2025 Daniel Gałacewicz
+//
+// This software is released under the MIT License.
+// SPDX-License-Identifier: MIT
+//
+// For more details, see the LICENSE file.
+// Or visit: https://opensource.org/licenses/MIT 
+
+
+
 const plusBtn = document.getElementById("plus-btn");
 const content = document.getElementById("content");
 const startTestBtn = document.getElementById("start-test-btn");
@@ -6,12 +16,11 @@ const contentArea = document.getElementById("content")
 const defintionAnswer = document.getElementById("defintion-answer")
 const mistakeAlert = document.getElementById("mistake-alert")
 const mistakeBlock = document.getElementById("mistake-block")
-let blockCount = 1;  // Счётчик блоков
+let blockCount = 1;  
 
 function addNewBlock(){
     blockCount++;
 
-    // Если блоков меньше 9
     if(blockCount < 10){
         const newBlock = document.createElement("div");
         newBlock.className = "q-block";
@@ -22,7 +31,6 @@ function addNewBlock(){
 
         content.appendChild(newBlock);
 
-        // Показываем кнопку для начала теста, если блоков больше 1
         if (blockCount > 0) {
             startTestBtn.classList.remove("hidden-block");
         }
@@ -32,11 +40,8 @@ function addNewBlock(){
 
 function getRandomUniqueNumber(numbers) {
 
-    // Генерируем случайный индекс
     const randomIndex = Math.floor(Math.random() * numbers.length);
-    // Забираем число по этому индексу
     const number = numbers[randomIndex];
-    // Удаляем число из массива
     numbers.splice(randomIndex, 1);
 
 
@@ -57,7 +62,6 @@ let tryCounter = 0
 function resetDefinitionBlock() {
 
 
-    // Очищаем содержимое блока
     defintionAnswer.innerHTML = '';
     const newBlock = document.createElement("div")
     newBlock.innerHTML = `podaj do: ${definitions[definitionNumber]}`
@@ -74,7 +78,6 @@ startTestBtn.addEventListener("click", () => {
     testArea.classList.add("test-area-flex");
     contentArea.classList.add("hidden-block")
 
-    // Собираем все данные из блоков
     
     
     
@@ -95,18 +98,16 @@ startTestBtn.addEventListener("click", () => {
     console.log("Определения:", definitions);
     console.log("Описание:", descriptions);
 
-    // Очищаем содержимое testArea перед добавлением новых блоков
     console.log("Before clearing:", testArea.innerHTML);
 testArea.innerHTML = '';
 console.log("After clearing:", testArea.innerHTML);
 
-    // Создаём новые блоки и добавляем их в testArea
     for (let i = 0; i < descriptions.length; i++) {
         let idRandomBlock = getRandomUniqueNumber(descriptionsLengthForRandom)
         const newBlock = document.createElement("div");
-        newBlock.className = "test-description"; // Новый класс для тестовых блоков
+        newBlock.className = "test-description"; 
         newBlock.innerHTML = `<div onclick="checkAnswer(${idRandomBlock})" class = "test-description-block">${descriptions[idRandomBlock]}</div>`;
-        testArea.appendChild(newBlock); // Добавляем блок в testArea
+        testArea.appendChild(newBlock); 
     }
     if(definitions.length>1){
 

@@ -1,3 +1,13 @@
+ <!-- Copyright (c) [year] [fullname]
+
+ This software is released under the MIT License.
+ SPDX-License-Identifier: MIT
+
+ For more details, see the LICENSE file.
+ Or visit: https://opensource.org/licenses/M -->
+
+ 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +19,15 @@
 <body>
 
     <nav>
-        <a class="nav-button" href="index.html">Reset</a>
-        <img src="" alt="Timer">
+        <a class="nav-button" href="index.html">Reset all</a>
+        <div class="stopwatch">
+        <div class="display" id="display">00:00:00.000</div>
+        <div class="controls">
+            <button class="start" id="startBtn">Start</button>
+            <button class="stop" id="stopBtn" disabled>Stop</button>
+            <button class="reset" id="resetBtn">Reset timer</button>
+        </div>
+    </div>
     </nav>
     <div id="test-area" class="test-area hidden-block">
         

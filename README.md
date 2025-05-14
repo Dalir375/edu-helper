@@ -39,3 +39,12 @@ Naprawa błedu
 **Kierunki dalszego rozwoju aplikajci**
 
 Zostanie stworzony timer, który będzie pokazywał czas potrzebny do ukończenia testu. Optymalizacja kodu poprzez usunięcie niepotrzebnych funkcji i innych elementów.
+
+
+
+
+## Licencja (License)
+
+Ten projekt jest licencjonowany na warunkach licencji MIT - zobacz plik LICENSE.txt w celu uzyskania szczegółów.
+
+This project is licensed under the MIT License - see the LICENSE.txt file for details.

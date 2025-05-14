@@ -1,3 +1,13 @@
+ /* Copyright (c) 2024-2025 Daniel Gałacewicz
+
+ This software is released under the MIT License.
+ SPDX-License-Identifier: MIT
+
+ For more details, see the LICENSE file.
+ Or visit: https://opensource.org/licenses/MIT  */
+
+
+
 *{
     font-family: Gill Sans, sans-serif;
 }
@@ -19,6 +29,7 @@ nav{
     z-index: 3;
     background-color: rgb(23, 23, 23);
     color: white;
+    display: flex;
 }
 
 .content{
@@ -129,10 +140,10 @@ body{
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-    width: 300px;         /* Ширина блока */
-    word-wrap: break-word; /* Перенос длинных слов */
-    overflow: hidden;     /* Скрытие излишков, если нужно */
-    box-sizing: border-box; /* Учитывать отступы внутри блока */
+    width: 300px;         
+    word-wrap: break-word; 
+    overflow: hidden;     
+    box-sizing: border-box; 
 }
 .test-description-block:hover{
     background-color: #e4e4e4;
