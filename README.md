@@ -43,6 +43,35 @@ Zostanie stworzony timer, który będzie pokazywał czas potrzebny do ukończeni
 
 
 
+## Jak uruchomić (How to Run)
+
+**Wymagania (Prerequisites):**
+
+* Nowoczesna przeglądarka internetowa (np. Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
+  (A modern web browser (e.g., Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).)
+
+**Instrukcje (Instructions):**
+
+1.  **Pobierz pliki projektu:**
+    * Możesz sklonować to repozytorium Git:
+        ```bash
+        git clone [URL_TWOJEGO_REPOZYTORIUM_NA_GITHUB]
+        ```
+    * Lub pobrać pliki projektu jako archiwum ZIP (np. z GitHub klikając "Code" -> "Download ZIP") i rozpakować je na swoim komputerze.
+        (Or download the project files as a ZIP archive (e.g., from GitHub by clicking "Code" -> "Download ZIP") and unpack them on your computer.)
+
+2.  **Przejdź do folderu projektu:**
+    Po pobraniu i rozpakowaniu plików, przejdź do głównego folderu, w którym znajduje się plik `index.html`.
+    (After downloading and unpacking the files, navigate to the main folder containing the `index.html` file.)
+
+3.  **Otwórz plik `index.html`:**
+    Kliknij dwukrotnie plik `index.html` lub otwórz go za pomocą opcji "Otwórz za pomocą..." (Open with...) w wybranej przeglądarce internetowej. Aplikacja powinna załadować się i działać bezpośrednio w przeglądarce.
+    (Double-click the `index.html` file or open it using the "Open with..." option in your chosen web browser. The application should load and run directly in the browser.)
+
+
+
+
+
 ## Licencja (License)
 
 Ten projekt jest licencjonowany na warunkach licencji MIT - zobacz plik LICENSE.txt w celu uzyskania szczegółów.
